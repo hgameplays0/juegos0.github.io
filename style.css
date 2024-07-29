@@ -70,6 +70,7 @@ body{
     display: none;
 
 }
+/*fonts--<*/
 .slide .item:nth-child(1) .content{
     display: block;
 }
@@ -77,12 +78,29 @@ body{
     font-family: 'Bridgers Brush';
     src: url('fonts/Bridgers Brush.ttf') format('opentype');
 }
+/*
+@font-face {
+    font-family: 'a Artlazies';
+    src: url('fonts/aArtlazies.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Arthas';
+    src: url('fonts/Arthas.ttf') format('opentype');
+}
+
 @font-face {
     font-family: 'Smasher';
     src: url('fonts/Smasher.otf') format('opentype');
 }
+
+@font-face {
+    font-family: 'Art';
+    src: url(fonts/Art.otf) format('opentype');
+}
+*/
 .content .name{
-    font-family: "Espior" sans-serif;
+    font-family:'Times New Roman' sans-serif;
     position: relative;
     color: rgb(41, 118, 99);
     font-size: 50px;
@@ -97,9 +115,8 @@ body{
     top: 0;
     left: 0;
     font-size: 130px;
-    font-family: "Bridgers Brush", sans-serif;
+    font-family: "Bridgers Brush",sans-serif;
     z-index: -1;
-    text-transform:lowercase;
     transform: translate(-50px, -45px);
     color: rgb(224, 237, 233);
 }
