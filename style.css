@@ -74,6 +74,12 @@ body{
 .slide .item:nth-child(1) .content{
     display: block;
 }
+
+@font-face {
+    font-family: 'Bridgeriden';
+    src: url('fonts/Bridgeriden.ttf') format('opentype');
+}
+
 @font-face {
     font-family: 'Bridgers Brush';
     src: url('fonts/Bridgers Brush.ttf') format('opentype');
